@@ -1,0 +1,12 @@
+USE mysql;
+SHOW TABLES;
+
+SHOW PRIVILEGES;
+
+CREATE DATABASE IF NOT EXISTS mydb;
+SHOW DATABASES;
+
+SELECT user, authentication_string FROM mysql.user;
+
+FLUSH PRIVILEGES;
+
